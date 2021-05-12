@@ -1,0 +1,38 @@
+.second-section {
+  color: inherit;
+  padding-top: 100px;
+
+  h2 {
+    margin-bottom: 30px;
+  }
+
+  h2,
+  h3 {
+    color: $darkBlue;
+  }
+
+  h3 {
+    margin-bottom: 15px;
+  }
+
+  p.first-p {
+    margin-bottom: 5rem !important;
+  }
+
+  img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 575px) {
+  .second-section {
+    text-align: center;
+
+    .item1 {
+      order: 2 !important;
+    }
+    .item2 {
+      order: 1 !important;
+    }
+  }
+}
